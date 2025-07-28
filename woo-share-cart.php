@@ -1,5 +1,5 @@
 <?php
-error_log('✅ wsc-functions.php loaded');
+error_log('wsc-functions.php loaded');
 
 /**
  * Plugin Name: WooCommerce Share Cart
