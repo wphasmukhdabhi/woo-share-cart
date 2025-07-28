@@ -54,7 +54,7 @@ function wsc_load_cart_from_url() {
             foreach ($cart_data as $item) {
                 WC()->cart->add_to_cart($item['id'], $item['qty']);
             }
-            wc_add_notice('✅ Shared cart loaded successfully!', 'success');
+            wc_add_notice('Shared cart loaded successfully!', 'success');
             wp_safe_redirect(wc_get_cart_url());
             exit;
         }

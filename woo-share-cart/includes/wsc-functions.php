@@ -8,7 +8,7 @@ add_action('wsc_test_hook', 'wsc_add_share_button');
 
 function wsc_add_share_button()
 {
-    echo '<p>✅ Share Cart Button Function Loaded</p>';
+    echo '<p>Share Cart Button Function Loaded</p>';
     echo '<div style="margin-top:20px;padding:15px;border:2px dashed #0073aa;background:#f9f9f9;">';
 
     echo '<form method="post">';
